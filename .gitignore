@@ -44,3 +44,11 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+.metadata/.plugins/org.eclipse.rse.core/.log
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+cd 
+cd .pub
+newShh
+newShh.pub
+.metadata/.log
+cd 

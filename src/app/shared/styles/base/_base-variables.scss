@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,500,600|Open+Sans:400,600,700);
+
+// Bootstrap Colors
+$gray-base:                 #000 !default;
+$gray-darker:               lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:                 #373a3c !default;
+$gray:                      #55595c !default;
+$gray-light:                #818a91 !default;
+$gray-lighting:             lighten($gray-base, 75%) !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
+
+// Colors
+$brand-color-1: #9198e5;
+$brand-color-2: #F3EBF6;
+$brand-color-3: white;

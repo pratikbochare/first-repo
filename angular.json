@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         },
         "@schematics/angular:application": {
           "strict": true
@@ -31,7 +31,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss",
+              "src/app/shared/styles/base/_base-variables.scss"
             ],
             "scripts": []
           },
@@ -94,7 +95,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss",
+              "src/app/shared/styles/base/_base-variables.scss"
             ],
             "scripts": []
           }
@@ -127,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "my-first-project"
+  "defaultProject": "my-first-project",
+  "cli": {
+    "analytics": "f5e57755-837e-4348-86d6-a0f1a720f21c"
+  }
 }

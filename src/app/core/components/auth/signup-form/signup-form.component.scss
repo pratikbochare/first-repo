@@ -1,0 +1,42 @@
+@import "../../../../../styles.scss";
+
+@mixin center-everyting(){
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    flex-direction: column;;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sign-up-form{
+    &__container{
+        background:  $brand-color-2;
+        background: radial-gradient($brand-color-2, $brand-color-1);
+        @include center-everyting();
+        height:100vh;
+    };
+    
+    &_card{
+		box-shadow:  0 0 15px rgba(0, 0, 0, .25);
+	    padding: 10px 3rem;
+        background-color: $brand-color-2;
+        border-radius: 10%;
+        &__headder{
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: bold;
+            color: $brand-color-1;
+            border-bottom: 1px solid $brand-color-1;
+            margin-bottom: 10px;
+        }
+        &__body {
+            margin: auto;
+            max-width: 600px;
+            text-align:center;
+            color: $brand-color-1;
+        }
+	};
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAAA,+EAA+E;ACA/E,OAAO,CAAC,sFAAI",
+    "sources": [
+        "styles.scss",
+        "app/shared/styles/base/_base-variables.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
